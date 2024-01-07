@@ -1,7 +1,25 @@
-h1{
-    color: green;
-   
+body{
+    font-family: 'Merriweather', serif;
 }
-marquee{
-    background-color: gray;
+.container-head{
+    margin: 50px 140px;
+    border: 2px solid red;
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    background-image: url('B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png');
+    align-items: center;
+ justify-content: center;
+
+   
+    
+}
+#new{
+    text-align: center;
+    margin: 177px 531px 383px 530px;
+}
+.container-head .element{
+ color: white;
+ 
+
 }
