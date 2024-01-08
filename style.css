@@ -104,3 +104,31 @@ width: 400px;
     padding: 8px 16px;
     margin-top: 3px;
 }
+.first, .second, .third{
+    margin-right: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.second{
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.second img{
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.third{
+    margin:0px;
+    width: 300px;
+}
+.third img{
+    width: 140px;
+    height: 140px;
+    position: relative;
+
+}
