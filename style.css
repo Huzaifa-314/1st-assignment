@@ -4,7 +4,7 @@ body{
 .section{
     margin: 50px 78px 0px 78px;
     border: 2px solid green;
-    height: 500px;
+    height: 499px;
 }
 /* header section start*/
 .container-head{
@@ -54,4 +54,37 @@ border: none;
 .section .new-photo img{
     width:500px;
     height: 290px;
+}
+
+#mid-party{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.section .mid-title{
+    color: #FFF;
+font-size: 30px;
+font-family: Merriweather;
+font-weight: 500;
+letter-spacing: 3.04px;
+}
+.section .mid-description{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+width: 400px;
+}
+#join{
+    /* background-image: linear-gradient(360deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-color: #070211;
+    border:none;
+    font-weight: 500;
 }
