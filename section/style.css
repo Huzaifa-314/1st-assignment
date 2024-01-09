@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+.container{
+    width: 1140px;
+    min-height: 90vh;
+    margin: auto;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.section{
+    margin: 25px;
+    background-color: rgb(78, 120, 6);
+    border: dashed 2px aqua;
+}
+.sub-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.column{
+    position: relative;
+    display: flex;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    
+    background-color: white;
+}
+.column-1{
+    justify-content: center;
+}
+.column-2{
+    justify-content: end;
+    align-items: center;
+}
+
+
+.red{
+    width: 100%;
+    background-color: red;
+    height:200px;
+    border-radius: 10px 10px 10px 0;
+}
+.gift-img{
+    width:90%;
+}
+.discount-img{
+    position: absolute;
+    left:50px;
+    width:40%;
+
+}
+.amazed-img{
+    width:70%;
+}
