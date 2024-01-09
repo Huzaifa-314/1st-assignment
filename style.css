@@ -2,7 +2,6 @@ body{
     font-family: 'Merriweather', serif;
 }
 .section{
-    border: 2px solid green;
     height: 499px;
     width: 1100px;
    margin-top: 60px;
@@ -117,7 +116,7 @@ width: 400px;
 .first, .second, .third{
     margin-right: 80px;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .second{
     border: 10px solid red;
@@ -142,9 +141,9 @@ width: 400px;
     position: relative;
 
 }
-.holiday-title{
+/* .holiday-title{
     text-align: center;
-}
+} */
 
 /* #holiday{
     height: 700px;
@@ -171,21 +170,29 @@ width: 400px;
  }
  .section .row{
     display: flex;
+    justify-content: center;
  }
  .col{
     height: 300px;
     width: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 100px;
     margin-bottom: 30px;
     margin-top: 30px;
     box-shadow: 5px 5px 15px gray;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-out;
     
  }
  .col img{
     width: 100%;
     height: 100%;
  }
+ .col:hover img{
+    transform: scale(1.1);
+ }
+ 
 
  /* subscribe secio start */
  #subscribe{
@@ -203,8 +210,10 @@ border:none;
    margin-top: 100px; */
  }
  .search-box{
-    padding: 10px 100px;
+    padding: 10px 20px;
+    width: 25%;
     margin-top: 20px;
+    border-radius: 50px 0px 0px 50px;
  }
  .btn{
     
@@ -222,10 +231,39 @@ border:none;
 .footer-bg{
     background: #070211;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #FFF;
     padding: 50px;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    position: relative;
 
+}
+.icon img{
+    width: 60px;
+    height: 60px;
+}
+hr{
+     /* background: rgba(255, 255, 255, 0.15);
+     color:  rgba(255, 255, 255, 0.12); */
+     /* width: 900px; */
+     height: 0.2px;
+}
+.footer-bg .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-bg .top p{
+    font-size: 14px;
+}
+#copy{
+    margin-top: 50px;
+    
+}
 
  /* footer end */
