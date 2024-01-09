@@ -170,11 +170,12 @@ width: 400px;
  }
  .section .row{
     display: flex;
+    justify-content: center;
  }
  .col{
     height: 300px;
     width: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 100px;
     margin-bottom: 30px;
     margin-top: 30px;
