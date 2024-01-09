@@ -210,8 +210,10 @@ border:none;
    margin-top: 100px; */
  }
  .search-box{
-    padding: 10px 100px;
+    padding: 10px 20px;
+    width: 25%;
     margin-top: 20px;
+    border-radius: 50px 0px 0px 50px;
  }
  .btn{
     
@@ -246,7 +248,10 @@ border:none;
     height: 60px;
 }
 hr{
-     background:#FFFFFF26;
+     /* background: rgba(255, 255, 255, 0.15);
+     color:  rgba(255, 255, 255, 0.12); */
+     /* width: 900px; */
+     height: 0.2px;
 }
 .footer-bg .top{
     display: flex;
